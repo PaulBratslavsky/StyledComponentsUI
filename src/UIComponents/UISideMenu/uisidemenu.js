@@ -1,12 +1,20 @@
 import styled from 'styled-components';
 
 const UISideMenu = styled.header`
-  display: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
   width: 250px;
-  background: orange;
+  background: a;
+
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  grid-row-gap: 8px;
+
+  .avatar {
+  }
+
+  .side-menu {
+  }
+
 `;
 
 export default UISideMenu;

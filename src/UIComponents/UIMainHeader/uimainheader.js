@@ -21,7 +21,13 @@ const UIMainHeader = styled.header`
       margin-right: 0.5rem;
       background: none;
       border: none;
+
+      svg {
+        color: #f4f4f4;
+        font-size: 1.8rem;
+      }
     }
+
   }
 
   .menu {

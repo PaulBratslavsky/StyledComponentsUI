@@ -3,6 +3,7 @@ import { UISideMenu } from '../../UIComponents'
 
 export default function sidemenu() {
   return <UISideMenu>
-      main nav
+      <div className="avatar">hello</div>
+      <div className="side-menu">Menu</div>
   </UISideMenu>
 }
