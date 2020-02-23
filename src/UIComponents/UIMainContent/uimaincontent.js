@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-const UIMainContent = styled.header`
+const UIMainContent = styled.div`
   height: 100%;
   width: 100%;
   display: grid;
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
   grid-template-columns: ${ ({menuOpen}) => menuOpen ? '250px' : '0'} 1fr;
 `;
 

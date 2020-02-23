@@ -9,7 +9,7 @@ export default function MainHeader() {
   const { methods, state } = React.useContext(UIContext)
   console.log(methods, 'Show me')
   return <UIMainHeader >
-    <div className="logo"><button onClick={methods.toggleSideMenu}>{state.toggleMenuState ? <MdClear/> : <MdReorder/>}</button><h2>Main Header</h2></div>
+    <div className="logo"><button onClick={methods.toggleSideMenu}>{state.toggleMenuState ? <MdClear/> : <MdReorder/>}</button><h3>HTRAX</h3></div>
     <div className="menu">User</div>
   </UIMainHeader>
  
